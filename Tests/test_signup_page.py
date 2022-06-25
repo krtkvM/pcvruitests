@@ -21,4 +21,5 @@ def test_signup(browser):
     signup_page.enter_phonenumber("1234567890")
     signup_page.enter_password("qwe123")
     signup_page.enter_tenant_name("autoqa" + rndm_number)
+    signup_page.press_signup_button()
     time.sleep(5)

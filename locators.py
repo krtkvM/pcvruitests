@@ -7,6 +7,7 @@ class SignupPageLocators():
     USER_PHONENUMBER = (By.XPATH, '//div[@class="auth__fields"]/div[4]/div/div[3]/input')
     USER_PASSWORD = (By.XPATH, '//input[@type="password"]')
     USER_TENANT_NAME = (By.XPATH,'//div[@class="auth__fields"]/div[6]/div/div/div/input')
+    SIGN_UP_BUTTON = (By.XPATH, '//button[contains(@class,"auth__button")]')
 
 
 

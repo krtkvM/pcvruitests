@@ -27,3 +27,7 @@ class SignupPage(BasePage):
     def enter_tenant_name(self, text):
         user_tenant_name = self.browser.find_element(*SignupPageLocators.USER_TENANT_NAME)
         user_tenant_name.send_keys(text)
+
+    def press_signup_button(self):
+        signup_button = self.browser.find_element(*SignupPageLocators.SIGN_UP_BUTTON)
+        signup_button.click()
